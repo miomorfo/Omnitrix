@@ -5,6 +5,7 @@
 //  Created by Fernando on 08-01-22.
 
 enum Aliens: Int {
+    case none
     case Diamondhead
     case Cannonbolt
     case XLR8
