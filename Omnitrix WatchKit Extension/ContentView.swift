@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var scrollAmount = 0.0
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        ZStack {
+            Image("Watchface")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .rotationEffect(.degrees((scrollAmount/2)*90))
+        }
+        .offset(y: 15)
+        .focusable(true)
+        .digitalCrownRotation($scrollAmount, from: 0, through: 14, by: 2, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
     }
 }
 
