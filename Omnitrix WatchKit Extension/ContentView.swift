@@ -16,6 +16,12 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .rotationEffect(.degrees((scrollAmount/2)*90))
+            
+            Image("\(Aliens(rawValue: Int(scrollAmount))!)")
+                .resizable()
+                .padding(.all, 45)
+                .aspectRatio(contentMode: .fit)
+            
         }
         .offset(y: 15)
         .focusable(true)

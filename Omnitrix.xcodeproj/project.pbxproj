@@ -15,6 +15,7 @@
 		0F2648392789D02100EA9AE5 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2648382789D02100EA9AE5 /* ComplicationController.swift */; };
 		0F26483B2789D02100EA9AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F26483A2789D02100EA9AE5 /* Assets.xcassets */; };
 		0F26483E2789D02100EA9AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F26483D2789D02100EA9AE5 /* Preview Assets.xcassets */; };
+		0F26484E2789D63100EA9AE5 /* Aliens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F26484D2789D63100EA9AE5 /* Aliens.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		0F26483A2789D02100EA9AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F26483D2789D02100EA9AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F26483F2789D02100EA9AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F26484D2789D63100EA9AE5 /* Aliens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliens.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				0F26483A2789D02100EA9AE5 /* Assets.xcassets */,
 				0F26483F2789D02100EA9AE5 /* Info.plist */,
 				0F26483C2789D02100EA9AE5 /* Preview Content */,
+				0F26484D2789D63100EA9AE5 /* Aliens.swift */,
 			);
 			path = "Omnitrix WatchKit Extension";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				0F2648352789D02100EA9AE5 /* ContentView.swift in Sources */,
 				0F2648372789D02100EA9AE5 /* OmnitrixApp.swift in Sources */,
 				0F2648392789D02100EA9AE5 /* ComplicationController.swift in Sources */,
+				0F26484E2789D63100EA9AE5 /* Aliens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
